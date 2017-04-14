@@ -103,6 +103,7 @@ module EmailInquire
       ".cojp" => ".co.jp",
       ".couk" => ".co.uk",
       ".com.com" => ".com",
+      ".ru.ru" => ".ru",
     }.freeze
 
     def validate_common_tld_mistakes
